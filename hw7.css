@@ -1,0 +1,96 @@
+/* 全局樣式 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* 背景顏色 */
+    display: flex;
+    justify-content: center; /* 水平置中 */
+    align-items: center;     /* 垂直置中 */
+    min-height: 100vh;       /* 讓整個頁面佔滿螢幕高度 */
+}
+
+/* 主容器，設定為固定寬度的海報 */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFB6C1; /* 海報背景顏色 */
+    max-width: 900px;       /* 限制海報寬度 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 加陰影效果 */
+}
+
+/* 左側面板 */
+.left-panel {
+    background-color: #87CEEB; /* 淡色背景 */
+    width: 30%; /* 左側固定寬度 */
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.left-panel img {
+    width: 100%;
+    height: auto;
+}
+
+.left-panel h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.left-panel p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.nccu-icon {
+    width: 50px;
+    margin-top: 10px;
+}
+
+/* 右側面板 */
+.right-panel {
+    width: 70%; /* 右側佔滿剩餘空間 */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-panel h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.right-panel p, .right-panel ul {
+    margin: 0 0 15px;
+}
+
+.homework-list a {
+    color: blue;
+    text-decoration: none;
+}
+
+.homework-list a:hover {
+    text-decoration: underline;
+}
+
+/* 音樂區域 */
+.favorite-music {
+    margin-top: 20px;
+}
+
+.music-gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.music-item {
+    text-align: center;
+}
+
+.music-item img {
+    width: 50px;
+    height: 50px;
+}
